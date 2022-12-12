@@ -47,7 +47,7 @@ def main():
       if lev.lower() in acc:
         break
       else:
-        print('Invalid input. Please input L, K, H, AP, or DC.')
+        print('\nInvalid input. Please input L, K, H, AP, or DC.')
     level.append(lev)
 
     classes += 1 # will be used to divide total gradepoints
@@ -57,7 +57,7 @@ def main():
       if done.lower() == 'y' or done.lower() == 'n':
         break
       else:
-        print('Invalid input. Please input either "y" or "n".')
+        print('\nInvalid input. Please input either "y" or "n".')
     if done == 'y':
       break
     print() # makes a space after the loop
